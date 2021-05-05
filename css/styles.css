@@ -454,9 +454,11 @@ img {
 }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .photo-list {
+position: relative;
+
+
   display: flex;
   text-align: center;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -465,7 +467,7 @@ img {
   transition-property: color background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  /* transition: all 250ms linear; */
+   /*transition: all 250ms linear; */
 }
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ zrobić poprawny shadow*/
 .photo-list:hover {
@@ -650,7 +652,7 @@ img {
 /* PROJECTS/IMAGES */
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .animate-text-small {
-  position: absolute;
+  /* position: absolute; */
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -679,7 +681,7 @@ img {
 }
 
 .animate-text-overlay {
-
+position: absolute;
   display: flex;
   justify-content: center;
   
@@ -712,7 +714,7 @@ img {
 .image-projects {
   width: 370px;
   height: 294px;
-  position: relative;
+  /* position: relative; */
   margin-left: auto;
   margin-right: auto;
 }
